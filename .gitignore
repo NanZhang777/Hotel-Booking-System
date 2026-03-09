@@ -1,7 +1,30 @@
+# IDE
 .idea/
+
+# Python cache
+__pycache__/
+
+# Local database
+*.sqlite
+*.db
+
+# Flask runtime files
+instance/
+
+# Backend virtual environments
+backend/.venv/
+backend/venv/
+
+# Root virtual environments
 .venv/
 venv/
-__pycache__/
-instance/
-*.sqlite
-.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
